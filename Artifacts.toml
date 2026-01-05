@@ -1,0 +1,160 @@
+[[cephes]]
+arch = "aarch64"
+git-tree-sha1 = "1c5a3b6de38ac3eeeb199c8df96dda888dd12b86"
+os = "macos"
+
+    [[cephes.download]]
+    sha256 = "a73fffb9a9e09e8a80cc31ae71a13d3afd1b02019207a31ae76a68609485476a"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.aarch64-apple-darwin.tar.gz"
+[[cephes]]
+arch = "aarch64"
+git-tree-sha1 = "8eaac5ba03d4b8419be8bdb6ec250da950494ffc"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "20c875c10a1711d137ee3b6bf0187fce63649d556b287fbdb2287efb597b42c6"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.aarch64-linux-gnu.tar.gz"
+[[cephes]]
+arch = "aarch64"
+git-tree-sha1 = "e6818a90a902ea175d25ebb00118c29131986fe1"
+libc = "musl"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "83b4682524cf630bf4f5ee413f63b7c5e16ddcf8ed46d496d3cc622b6e278c69"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.aarch64-linux-musl.tar.gz"
+[[cephes]]
+arch = "aarch64"
+git-tree-sha1 = "36a0c567e038e4393374c26cc595298d4339555c"
+os = "freebsd"
+
+    [[cephes.download]]
+    sha256 = "76bf31c992fad54f9c55118ae3dcd5c6c8a682e91b1a4068ded036036710c348"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.aarch64-unknown-freebsd.tar.gz"
+[[cephes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "18a2381d6952b72fc80c9869729c6c188ce76c48"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "b2c982363a18934d327764af548f997456de24f0e36cdb7d3ec79fe3bba5e1ad"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.armv6l-linux-gnueabihf.tar.gz"
+[[cephes]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7bc01c6bc90126a2761741a36a4ad68d0fd41133"
+libc = "musl"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "5f86b65264c5415b8060ed7af1efecda39c039fc1d1bcb623a41fc4cf882ffb5"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.armv6l-linux-musleabihf.tar.gz"
+[[cephes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "391351d3f16e7dc961aa2093de0d78965c16f72f"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "3a323897116f658c4cc27dfe474685621f5783d9381517a5d27f4be66a055db9"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[cephes]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5880189004d85b07d75327bb8da2b76c84fca6b1"
+libc = "musl"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "7727dfa86d0fc58c1bf2bf83b8756ec524a0198c63bfb98fd82da6fc3543a210"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.armv7l-linux-musleabihf.tar.gz"
+[[cephes]]
+arch = "i686"
+git-tree-sha1 = "23b59063a71a21363df5441ec697a8beef2d79d5"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "ae2614956cc58fee8eb4bbae70f3af953e67726d4290368c27089d9442ecb042"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.i686-linux-gnu.tar.gz"
+[[cephes]]
+arch = "i686"
+git-tree-sha1 = "d2012b2a890ac8a4b5c1bba7bdb0510d24934174"
+libc = "musl"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "0e294f67c7b9dd03af8c2f7822e62c572990da94e194eb3e1e35a112a408a990"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.i686-linux-musl.tar.gz"
+[[cephes]]
+arch = "i686"
+git-tree-sha1 = "d2273fa563a4b326056e48e38294a2dbd224f062"
+os = "windows"
+
+    [[cephes.download]]
+    sha256 = "bcf341cdf63e564804e2c38896483b054e74e865120959e697b4d5361b367bb4"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.i686-w64-mingw32.tar.gz"
+[[cephes]]
+arch = "powerpc64le"
+git-tree-sha1 = "a15c7f947aea0ec6783ce040328d90ec7a3ccaee"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "06797804aca875d188957a46f20e1c4885fa80c52c523fc251e709d79e20e9fa"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.powerpc64le-linux-gnu.tar.gz"
+[[cephes]]
+arch = "riscv64"
+git-tree-sha1 = "b193e2100ca78e4b39260a82f7c782d6473b3bb9"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "44b3941741895bf011bfb0ea52ba1485758631e943110117e1be3277295b03dc"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.riscv64-linux-gnu.tar.gz"
+[[cephes]]
+arch = "x86_64"
+git-tree-sha1 = "0cbb2d9f4f34635f945f95e28ea1787195760215"
+os = "macos"
+
+    [[cephes.download]]
+    sha256 = "8ba020245ffa8255dd93138cb6d84a0c131c3a793377b0f99467e7d3b72aabe9"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.x86_64-apple-darwin.tar.gz"
+[[cephes]]
+arch = "x86_64"
+git-tree-sha1 = "1817f6e96804d1a8101da05ea5e2ad9eeca33b80"
+libc = "glibc"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "862664f432af7473f257a4a0f805cd238cbad666ffc55acb65acdd33098b3b47"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.x86_64-linux-gnu.tar.gz"
+[[cephes]]
+arch = "x86_64"
+git-tree-sha1 = "768d2c5dacafc0fe2789f43e3b3b985f38079f7b"
+libc = "musl"
+os = "linux"
+
+    [[cephes.download]]
+    sha256 = "2a4b5ee4a55eb984a52e5d36ace95386d00b3711f0825ed161182edba9491d89"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.x86_64-linux-musl.tar.gz"
+[[cephes]]
+arch = "x86_64"
+git-tree-sha1 = "a755855237c0db37319201637589c64cbccc1ee2"
+os = "freebsd"
+
+    [[cephes.download]]
+    sha256 = "903b18a77318b9ecb3e201400e4246e9ddd773db3c389f45037ab4ed822ae7b4"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.x86_64-unknown-freebsd.tar.gz"
+[[cephes]]
+arch = "x86_64"
+git-tree-sha1 = "05725491e695b20f50a929904eab707a86ba9346"
+os = "windows"
+
+    [[cephes.download]]
+    sha256 = "6d9a58ae9a275e7c33b2fbdee685c19ba6f2788fc15239b4c39ce102fc363c48"
+    url = "https://github.com/JuliaBinaryWrappers/cephes_jll.jl/releases/download/cephes-v1.0.0+0/cephes.v1.0.0.x86_64-w64-mingw32.tar.gz"
